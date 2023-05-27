@@ -1,0 +1,80 @@
+/* Re/* Reset the default styles for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Set the default font family and color */
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #f7f7f7;
+}
+/* Style the navigation */
+nav {
+  background-color: #333;
+  height: 4rem;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+nav li {
+  margin-right: 2rem;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+nav a:hover {
+  color: #f7f7f7;
+}
+/* Style the hero section */
+.hero {
+  background-image: url(fifa-mobile-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.hero h1 {
+  font-size: 4rem;
+  color:#fff;
+  text-shadow: 2px 2px #333;
+  margin-bottom:2rem;
+}
+.hero p{
+  font-size: 1.5rem;
+  color: #fff;
+  text-shadow: 1px 1px #333;
+  margin-bottom: 2rem;
+}
+/* Style the player cards */
+.player-card {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin: 2rem;
+  padding: 2rem;
+}
+.player-card h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.player-card img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+  border: 5px solid gray;
+}
+.player-card p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  }
